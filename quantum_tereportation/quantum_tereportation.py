@@ -25,12 +25,12 @@ def main():
 
     cr2 = ClassicalRegister(1)
 
-    # make basic circuit 
+    # make basic circuit
     circ = QuantumCircuit(QuantumRegister(3), cr0, cr1, cr2)
 
     # show circuit
     circ.draw(output="mpl",filename="./circuit1.png")
-        
+
     # make circuit for tereportation
     circ.h(0)
     circ.h(1)
@@ -67,6 +67,6 @@ def main():
 
 
 
-    
+
 if __name__=="__main__":
     main()
