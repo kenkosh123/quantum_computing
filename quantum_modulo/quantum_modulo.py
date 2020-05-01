@@ -131,7 +131,7 @@ def modulo_adder(a, b, N):
             qcirc.ccx(tq[0], nq_spare[i], aq[i])
     # Swap (a, N)
     for i in range(qb):
-        qcirc.swap(aq[i], nq[i]) 
+        qcirc.swap(aq[i], nq[i])
     # Subtractor
     subtractor(qcirc, aq, bq, cq, qb)
     # Reset tq
@@ -150,8 +150,6 @@ def modulo_adder(a, b, N):
     result = job.result()
     result_dict = result.get_counts(qcirc)
     print(result_dict)
-   
-
 
 if __name__ == '__main__':
      fire.Fire()

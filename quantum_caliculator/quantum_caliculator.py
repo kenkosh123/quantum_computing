@@ -88,8 +88,6 @@ def plain_adder(a, b):
     result = job.result()
     result_dict = result.get_counts(qcirc)
     print(result_dict)
-    
-
 
 if __name__ == '__main__':
      fire.Fire()
