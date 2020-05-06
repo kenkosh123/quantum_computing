@@ -10,6 +10,9 @@ from qiskit import (
     execute
 )
 
+# reference
+# https://qiita.com/ksj555/items/1a035a5aead8486d30a8
+
 # Login IBMququantum
 #token_path = os.environ["HOME"]+"/"+".IBMQ_token.txt"
 token_path = "../IBMQ_token"

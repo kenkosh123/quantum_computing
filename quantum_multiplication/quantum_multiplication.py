@@ -11,6 +11,9 @@ from qiskit import (
     execute
 )
 
+# reference
+# https://qiita.com/converghub/items/fc0df6a05e26302ac5fc
+
 # Login IBMququantum
 #token_path = os.environ["HOME"]+"/"+".IBMQ_token.txt"
 token_path = "../IBMQ_token"
